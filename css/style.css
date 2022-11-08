@@ -11,9 +11,6 @@ body {
   margin-left: 200px;
 }
 
-section{
-}
-
 #index-intro {
   top: 27%;
   position: absolute;
@@ -34,14 +31,50 @@ section{
   justify-content: center;
 }
 
-nav > a {
-  display: inline-block;
+#local-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  background: lightblue;
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+
+#local-nav > ul {
+  padding-left: 25px;
+}
+
+nav > ul > li > a{
+  color: #222c6a;
+}
+
+nav > ul > li {
+  font-weight: bold;
+  font-size: 1em;
+  padding: 3px;
   text-decoration: none;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+nav > a {
+  text-decoration: none;
+  display: inline-block;
   padding: 5px;
   font-size: 1em;
   font-weight: bold;
   color: #222c6a;
   letter-spacing: .025em;
+}
+
+nav > ul > li > a:hover{
+  color:grey;
 }
 
 nav > a:hover{
@@ -56,4 +89,18 @@ h1 {
 
 p {
   font-size: 1.25em;
+}
+
+aside {
+    width: 40%;
+    padding-left: .75rem;
+    margin-left: .75rem;
+    margin-bottom: .5em;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px black;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
 }
