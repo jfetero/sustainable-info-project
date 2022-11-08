@@ -2,11 +2,12 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 body {
   background: lightcyan;
   margin: 0;
-padding: 10px;
-  margin-right: auto;
+  padding: 10px;
+  margin-right: 200px;
   margin-left: 200px;
 }
 
@@ -14,8 +15,9 @@ section{
 }
 
 #index-intro {
-  top: 30%;
+  top: 27%;
   position: absolute;
+  margin-right: 150px;
 }
 
 #global-nav {
@@ -47,8 +49,9 @@ nav > a:hover{
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: Merriweather;
+  margin: 0px;
 }
 
 p {
