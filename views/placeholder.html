@@ -10,6 +10,7 @@
 
 <body>
   <nav id="global-nav">
+    <!-- should have the global-nav for the modules -->
     <a href="index.html">Home</a>
     <a href="placeholder.html">Topic</a>
     <a href="research.html">Research</a>
@@ -20,7 +21,54 @@
     <a href="placeholder.html">Modality</a>
     <a href="placeholder.html">Professionalization</a>
   </nav>
-    <h1>Module Titles Should be in &lt;H1&gt; Tag</h1>
+
+  <nav id="local-nav">
+    <!-- make sure you make the local nav into a ul and make the href the section id -->
+    <ul>
+      <li><a href="#first-section">First Section</a></li>
+      <li><a href="#sec-section">Second Section</a></li>
+    </ul>
+  </nav>
+
+  <h1>Module Titles Should be in &lt;H1&gt; Tag</h1>
+  <p>A show description of the module can be inside a &lt;p&gt; tag.</p>
+  <aside>
+    <h4>This is a sidebar</h4>
+    <strong>You can make sidebars for extra information for the readers.</strong>
+  </aside>
+
+  <ul class="info-list">
+    <li>Unodered list items can be created like this</li>
+    <li>But make sure you put it in a class <strong>info-list</strong> for the CSS</li>
+  </ul>
+
+  <section id="first-section">
+    <h2>Section Titles should in &lt;H2&gt; Tag</h2>
+    <p>Make sure you create a unique ID for each section so you can add it into the local nav.</p>
+
+    <p>You can also make ordered list like this, but make you to put class as <strong>info-list</strong> for the CSS.
+    </p>
+    <ol class="info-list">
+      <li>Create a section for each section of the module</li>
+      <li>Add in unique ID for the section</li>
+      <li>Add into local nav</li>
+      <li>Add in all info, images, sidebars, and subsections</li>
+    </ol>
+
+    <h3>Subsections should be in &lt;H3&gt; Tag</h3>
+    <p>Next I will show how to add in images. Images should be added into the images/illustrations folder, but you can
+      also add icons into images/icons folder.</p>
+    <figure>
+      <img src="https://picsum.photos/200/100" alt="a random place holder image from picsum photos">
+      <figcaption>Images should be in figure tag so captions like this can be added with figcaption</figcaption>
+    </figure>
+  </section>
+
+  <section id="sec-section">
+    <h2>Example of another section</h2>
+    <p>This is just a quick overview/template on how to add more modules</p>
+  </section>
+
 
 </body>
 

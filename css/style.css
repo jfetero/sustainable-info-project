@@ -81,26 +81,75 @@ nav > a:hover{
   color: grey;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: Merriweather;
+}
+
 h1 {
   font-size: 2.5em;
-  font-family: Merriweather;
   margin: 0px;
 }
 
-p {
+h2 {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+h3 {
+  margin-bottom: 5px;
+  font-size: 1.5em;
+}
+
+h4 {
   font-size: 1.25em;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1.15em;
+  margin: 2px;
 }
 
 aside {
-    width: 40%;
-    padding-left: .75rem;
-    margin-left: .75rem;
-    margin-bottom: .5em;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px black;
-    color: #29627e;
+  width: 40%;
+  padding-left: .75rem;
+  margin-left: .75rem;
+  margin-bottom: .5em;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px black;
+  color: #29627e;
 }
 
-aside > p {
-    margin: .5rem;
+aside > p, strong {
+  font-weight: oblique;
 }
+
+figure {
+  padding: 5px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+figcaption {
+  padding: 10px;
+  font-family: Merriweather;
+  font-style: oblique;
+  font-size: 1.15em;
+}
+
+.info-list {
+  margin-top: .75em;
+  padding-left: 5em;
+  font-size: 1.10em;
+}
+
+.resource {
+ color: #222c6a;
+}
+
